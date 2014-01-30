@@ -64,29 +64,7 @@
 						 ?>
 						</div>
 
-						<div class="entry-meta">
-							<time class="post-date" datetime="<?php echo the_time('Y-m-d'); ?>">
-								<span class="post-month"><?php the_time('F'); ?></span>
-								<strong class="post-day"><?php the_time('d'); ?></strong>
-								<span class="post-year "><?php the_time('Y'); ?></span>
-							</time>
-							
-							<ul>
-								<li><span class="title"><?php _e("In", "site5framework"); ?>:</span> <?php the_category(', '); ?></li>
-								<li><span class="title"><?php _e("Posted By", "site5framework"); ?>:</span> <?php the_author_posts_link(); ?></li>
-								<?php $post_tags = wp_get_post_tags($post->ID);
-									if(!empty($post_tags)) { ?>
-								<li>
-									<span class="title"><?php _e("Tags", "site5framework"); ?>:</span>
-									<span class="tags">
-										<?php the_tags('', ', ', ''); ?>
-									</span>
-								</li>
-								<?php } ?>
-								<li><span class="title"><?php _e("Comments", "site5framework"); ?>:</span> <?php comments_popup_link(__('0', 'site5framework'), __('1', 'site5framework'), __('%', 'site5framework')); ?></li>
-							</ul>
-						</div>
-
+						
 						<div class="entry-body"> 
 							
 
