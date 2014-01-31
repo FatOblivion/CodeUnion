@@ -33,7 +33,7 @@
 				<div class="three-fourth">
 					<h1>
 					<?php if (is_category()) { ?>
-								<?php _e("Posts Categorized", "site5framework"); ?> / <span><?php single_cat_title(); ?></span> 
+								<?php _e("Courses Categorized", "site5framework"); ?> / <span><?php single_cat_title(); ?></span> 
 						<?php } elseif (is_tag()) { ?> 
 								<?php _e("Posts Tagged", "site5framework"); ?> / <span><?php single_cat_title(); ?></span>
 						<?php } elseif (is_author()) { ?>

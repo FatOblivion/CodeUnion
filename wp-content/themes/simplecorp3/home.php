@@ -30,7 +30,9 @@
 				<?php if(of_get_option('sc_homecontent') == '1') { ?>
 				
 				<!--begin cols content -->
+
 				<div class="container clearfix">
+					<h1>Course Highlights</h1>
 					<?php if( of_get_option('sc_homecontent1img') ||  of_get_option('sc_homecontent1title') || of_get_option('sc_homecontent1') ) : ?>
 					<div class="one-half">
 						<?php if( of_get_option('sc_homecontent1img')): ?><img src="<?php echo of_get_option('sc_homecontent1img') ?>" class="img-align-left" alt="<?php echo of_get_option('sc_homecontent1title') ?>" /><?php endif ?>

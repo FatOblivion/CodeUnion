@@ -706,6 +706,7 @@ height:200px;
 	line-height: 24px;
 }
 #copyrights{
+   color: #cccccc;
    width: 1020px;
    padding: 30px 0px;
    margin-left: 0px;
@@ -733,12 +734,13 @@ height:200px;
 /* FOOTER LIST
 /* ---------------------------------------------------------------------- */
 #footer .widget-container ul {
+   color: #cccccc;
    list-style-type: none;
    list-style-position: outside;
    width: 100%;
 }
 #footer .widget-container li {
-    color: #898989;
+    color: #cccccc;
     display: block;
     padding: 5px 0;
     border-bottom: 1pt solid #333;
@@ -841,6 +843,7 @@ height:200px;
 /* FOOTER CONTACT INFO
 /* ---------------------------------------------------------------------- */
  .widget_site5framework_contact_widget {
+   color: #cccccc;
 
  }
 
@@ -2336,4 +2339,29 @@ ul.buttons-huge li {
 }
 .help p {
    margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+   .flexslider .slides img, .slides img, .flexslider img {
+      max-width: 74%;
+      display: block;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+   .flexslider .slides img, .slides img, .flexslider img {
+      max-width: 74%;
+      display: block;
+   }
+}
+@media only screen and (max-width: 480px) , screen and (max-device-width: 480px) {
+   .flexslider .slides img, .slides img, .flexslider img {
+      max-width: 42%;
+      display: block;
+   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .flexslider .slides img, .slides img, .flexslider img {
+      max-width: 74%;
+      display: block;
+   }
 }
