@@ -45,12 +45,12 @@
 
 						
 						<?php if(of_get_option('sc_footer_copyright') == '') { ?>
-						&copy; <?php bloginfo('name'); ?> is powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a> <span class="amp">&amp;</span> <a href="http://www.site5.com" title="SimpleCorp">SimpleCorp</a>.
+						&copy; <?php bloginfo('name'); ?> is powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a> <span class="amp">&amp;</span> <a href="http://localhost/wordpress_3_8/" title="Code Union">Code Union</a>.
 						<?php } else { ?>
 						<?php echo of_get_option('sc_footer_copyright')  ?>
 						<?php } ?>
 						<!-- Site5 Credits-->
-						<br>Created by <a href="http://www.s5themes.com/">Site5 WordPress Themes</a>. Experts in <a href="http://gk.site5.com/t/568">WordPress Hosting</a>. 
+						<br>Powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a>. Experts in <a href="http://gk.site5.com/t/568">WordPress Hosting</a>. 
 
 						
 					</div>

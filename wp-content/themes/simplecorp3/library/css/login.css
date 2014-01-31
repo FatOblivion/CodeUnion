@@ -26,7 +26,7 @@ You'll have to load your own images and mess
 with the width and height.
 */
 h1 a {
-	background: url(../images/logo.png) no-repeat top center; /* make sure to replace this! */
+	background: url(../images/code_union_stroke.png) no-repeat top center; /* make sure to replace this! */
 	width: 295px;
 	height: 60px;
 	text-indent: -9999px;
